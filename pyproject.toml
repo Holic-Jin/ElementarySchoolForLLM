@@ -1,0 +1,25 @@
+[project]
+name = "ElementarySchoolForLLM"
+version = "0.1.0"
+description = "오케스트레이터·교사·학생 AI로 로컬 LLM을 학습시키는 macOS(Apple Silicon) 네이티브 앱"
+authors = [{ name = "HolicJin" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PySide6>=6.7",
+  "httpx>=0.27",
+  "psutil>=5.9",
+  "PyYAML>=6.0",
+  "keyring>=25.0",
+  "mlx>=0.22",
+  "mlx-lm>=0.22",
+  "huggingface_hub>=0.26",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.5", "transformers>=4.46", "peft>=0.13", "accelerate>=1.0", "safetensors>=0.4"]
+mlxext = ["mlx-lm-lora"]
+
+[project.gui-scripts]
+ElementarySchoolForLLM = "app.main:main"
