@@ -2,4 +2,4 @@
 
 APP_NAME = "ElementarySchoolForLLM"
 AUTHOR = "HolicJin"
-VERSION = "0.1.0"
+VERSION = "1.0.0"

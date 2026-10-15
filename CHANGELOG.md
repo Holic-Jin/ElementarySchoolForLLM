@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0 — 2026-10-15 (stable)
+
+First stable GitHub release. Same feature set as 0.1.0, now versioned as 1.0.0.
+
 ## 0.1.0 — 2026-10-11 (first release)
 
 Author: HolicJin · License: Apache-2.0
