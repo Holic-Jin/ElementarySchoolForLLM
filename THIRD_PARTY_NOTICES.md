@@ -1,8 +1,13 @@
 # Third-Party Notices
 
+[한국어](THIRD_PARTY_NOTICES.ko.md) · [English](THIRD_PARTY_NOTICES.md) · [日本語](THIRD_PARTY_NOTICES.ja.md)
+
 ElementarySchoolForLLM (Copyright 2026 HolicJin, Apache-2.0) does **not** bundle third-party code in this repository.
 The components below are downloaded from their official sources on first run (or when the user selects an optional engine)
 and are used under their own licenses.
+
+This project is **not affiliated with, endorsed by, or sponsored by** the owners of the components or trademarks listed below.
+Names are used only to identify software that users may install or connect to.
 
 | Component | License | How it is used |
 |---|---|---|
@@ -26,3 +31,5 @@ and are used under their own licenses.
 LM Studio is proprietary software; it is never downloaded or installed by this app — users install it themselves if they want to use it.
 
 Models (student base models, teacher/orchestrator models) are **not** part of this software. Each model has its own license and terms, which the user must follow.
+
+Apple, Mac, macOS, and other third-party names that appear in documentation are trademarks of their respective owners and are used for descriptive compatibility statements only.
