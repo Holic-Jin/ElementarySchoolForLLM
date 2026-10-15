@@ -1,6 +1,6 @@
 [project]
 name = "ElementarySchoolForLLM"
-version = "0.1.0"
+version = "1.0.0"
 description = "오케스트레이터·교사·학생 AI로 로컬 LLM을 학습시키는 macOS(Apple Silicon) 네이티브 앱"
 authors = [{ name = "HolicJin" }]
 license = { text = "Apache-2.0" }
